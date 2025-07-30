@@ -1,0 +1,18 @@
+{
+  "tasksData": [
+    { "id": 1, "name": "Project", "expanded": true },
+    { "id": 2, "name": "Task A", "startDate": "2024-07-01", "duration": 5, "parentId": 1 },
+    { "id": 3, "name": "Task B", "startDate": "2024-07-07", "duration": 3, "parentId": 1 }
+  ],
+  "resourcesData": [
+    { "id": 1, "name": "John" },
+    { "id": 2, "name": "Jane" }
+  ],
+  "assignmentsData": [
+    { "id": 1, "event": 2, "resource": 1 },
+    { "id": 2, "event": 3, "resource": 2 }
+  ],
+  "dependenciesData": [
+    { "id": 1, "fromEvent": 2, "toEvent": 3, "type": 2 }
+  ]
+}
